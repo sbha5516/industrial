@@ -1,0 +1,19 @@
+#g-header {
+  background-color: $white;
+  box-shadow: none;
+  border-bottom: $border;
+  >.g-container {
+    height: $header-height;
+    line-height: $header-height;
+  }
+
+  .g-content {
+    margin: 0;
+  }
+}
+
+
+.g-logo {
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,39 @@
+%sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px !important;
+  overflow: hidden;
+  padding: 0 !important;
+  position: absolute;
+  width: 1px;
+}
+
+%breadcrumb {
+  background-image: none;
+  background-position: 50% 0px;
+  background-repeat: repeat-x;
+  background-size: cover;
+  height: 110px;
+  max-height: 110px;
+  padding: 0;
+}
+
+%libefore {
+  li {
+    &:before {
+      background: none 0 0 no-repeat transparent;
+      background-size: contain;
+      color: #eee;
+      content: ' ';
+      display: block;
+      font-family: "Patua One";
+      font-size: 40px;
+      font-weight: 400;
+      height: 79px;
+      margin: -15px 0 0 -10px;
+      padding: 10px 95px;
+      width: 100%;
+    }
+  }
+}
