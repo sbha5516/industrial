@@ -32,7 +32,10 @@ layout:
       - 'position-breadcrumb-d 25'
   /fullwidth/:
     -
-      - position-fullwidth
+      - 'position-position-5485 50'
+      - 'position-position-6359 50'
+    -
+      - position-position-1857
   /showcase/:
     -
       - 'position-showcase-a 25'
@@ -182,6 +185,7 @@ structure:
     type: section
     attributes:
       boxed: ''
+      class: ''
   showcase:
     type: section
     attributes:
@@ -299,8 +303,10 @@ content:
       key: top-d
   logo-6391:
     attributes:
-      image: 'gantry-media://web/header/logo.png'
-      text: 'Indistrial By Nature'
+      image: 'gantry-media://logo.png'
+      text: ''
+    block:
+      variations: nopaddingall
   menu-6643:
     attributes:
       menu: ''
@@ -338,7 +344,16 @@ content:
   position-breadcrumb-d:
     attributes:
       key: breadcrumb-d
-  position-fullwidth:
+  position-position-5485:
+    title: Fullwidth
+    attributes:
+      key: fullwidth-left
+  position-position-6359:
+    title: 'Module Position'
+    attributes:
+      key: fullwidth-right
+  position-position-1857:
+    title: 'Module Position'
     attributes:
       key: fullwidth
   position-showcase-a:

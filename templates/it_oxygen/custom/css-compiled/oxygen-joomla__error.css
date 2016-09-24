@@ -1102,7 +1102,7 @@ article .item-image {
 /* line 2, templates/it_oxygen/scss/oxygen-joomla/_roksprocket.scss */
 /* line 3, templates/it_oxygen/scss/oxygen-joomla/_roksprocket.scss */
 .sprocket-lists .sprocket-lists-title {
-  background: url('../../images/listclosed.png?57d698d0') no-repeat scroll 98% #f8f9fa;
+  background: url('../../images/listclosed.png?57e4ff96') no-repeat scroll 98% #f8f9fa;
   border: none;
   border-bottom: 1px solid #ecf0f1;
   border-radius: 0;
@@ -1126,7 +1126,7 @@ article .item-image {
 /* line 21, templates/it_oxygen/scss/oxygen-joomla/_roksprocket.scss */
 /* line 22, templates/it_oxygen/scss/oxygen-joomla/_roksprocket.scss */
 .sprocket-lists li.active .sprocket-lists-title {
-  background: url('../../images/listopen.png?57d698d0') no-repeat scroll 98% #f8f9fa;
+  background: url('../../images/listopen.png?57e4ff96') no-repeat scroll 98% #f8f9fa;
 }
 /* line 27, templates/it_oxygen/scss/oxygen-joomla/_roksprocket.scss */
 /* line 28, templates/it_oxygen/scss/oxygen-joomla/_roksprocket.scss */
@@ -1202,13 +1202,13 @@ article .item-image {
 /* line 89, templates/it_oxygen/scss/oxygen-joomla/_roksprocket.scss */
 /* line 90, templates/it_oxygen/scss/oxygen-joomla/_roksprocket.scss */
 .white .sprocket-lists .sprocket-lists-title {
-  background: url('../../images/listclosed.png?57d698d0') no-repeat scroll 98% #fff;
+  background: url('../../images/listclosed.png?57e4ff96') no-repeat scroll 98% #fff;
 }
 /* line 94, templates/it_oxygen/scss/oxygen-joomla/_roksprocket.scss */
 /* line 95, templates/it_oxygen/scss/oxygen-joomla/_roksprocket.scss */
 /* line 96, templates/it_oxygen/scss/oxygen-joomla/_roksprocket.scss */
 .white li.active .sprocket-lists-title {
-  background: url('../../images/listopen.png?57d698d0') no-repeat scroll 98% #fff;
+  background: url('../../images/listopen.png?57e4ff96') no-repeat scroll 98% #fff;
 }
 /* line 104, templates/it_oxygen/scss/oxygen-joomla/_roksprocket.scss */
 /* line 105, templates/it_oxygen/scss/oxygen-joomla/_roksprocket.scss */

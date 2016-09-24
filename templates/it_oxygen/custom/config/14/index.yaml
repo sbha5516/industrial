@@ -1,5 +1,5 @@
 name: '14'
-timestamp: 1474107066
+timestamp: 1474705269
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -19,7 +19,9 @@ positions:
   breadcrumb-b: Breadcrumb-b
   breadcrumb-c: Breadcrumb-c
   breadcrumb-d: Breadcrumb-d
-  fullwidth: Fullwidth
+  fullwidth-left: Fullwidth
+  fullwidth-right: 'Module Position'
+  fullwidth: 'Module Position'
   showcase-a: Showcase-a
   showcase-b: Showcase-b
   showcase-c: Showcase-c
@@ -128,7 +130,9 @@ particles:
     position-breadcrumb-b: Breadcrumb-b
     position-breadcrumb-c: Breadcrumb-c
     position-breadcrumb-d: Breadcrumb-d
-    position-fullwidth: Fullwidth
+    position-position-5485: Fullwidth
+    position-position-6359: 'Module Position'
+    position-position-1857: 'Module Position'
     position-showcase-a: Showcase-a
     position-showcase-b: Showcase-b
     position-showcase-c: Showcase-c
