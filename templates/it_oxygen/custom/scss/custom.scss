@@ -3,12 +3,10 @@
 
 @import '/partials/mixin';
 @import '/partials/variables';
-@import '/components/logo';
 @import '/components/fa';
 @import '/components/header';
 @import '/components/footer';
 @import '/components/menu';
-@import '/components/page-header';
 @import '/components/breadcrumb';
 @import '/components/copyright';
 @import '/layout/featured';
@@ -19,7 +17,8 @@
 @import '/components/contentpro';
 @import 'components/slider';
 @import '/vendor/cta-button';
-
+@import '/components/main-feature';
 
 @import '/extra/extra';
 @import '/extra/responsive';
+@import '/extra/homepage';

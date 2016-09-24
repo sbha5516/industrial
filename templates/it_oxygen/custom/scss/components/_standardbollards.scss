@@ -1,7 +1,6 @@
 .standardbollards {
-
-  width: 100%;
   display: inline-block;
+  width: 100%;
 
   .g-grid {
     display: inline-block;
@@ -42,8 +41,8 @@
 
   &--right {
     float: right;
-    width: 55%;
     text-align: left !important;
+    width: 55%;
 
     img {
       margin-top: 115px;
@@ -52,4 +51,3 @@
     }
   }
 }
-
