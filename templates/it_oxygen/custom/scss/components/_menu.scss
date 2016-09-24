@@ -75,7 +75,7 @@
       color: $primary-menu-color;
       &:hover,
       &:focus {
-        background: url('../../images/web/header/iconurbanhover.png') no-repeat 15px center;
+        background: url('../../images/web/header/iconbikehover.png') no-repeat 15px center;
         box-shadow: inset 0 -5px 0 0 $secondary-color;
         color: $secondary-color;
       }
@@ -97,7 +97,7 @@
       color: $primary-menu-color;
       &:hover,
       &:focus {
-        background: url('../../images/web/header/iconurbanhover.png') no-repeat 15px center;
+        background: url('../../images/web/header/iconplayhover.png') no-repeat 15px center;
         box-shadow: inset 0 -5px 0 0 $secondary-color;
         color: $secondary-color;
       }
@@ -126,7 +126,7 @@
 
   .g-sublevel {
     li {
-      background-color: $sub-menu-color;
+      background-color: rgba(97, 133, 50, .7);
       border-right: none;
       margin: 0 !important;
       padding: 0;
@@ -144,7 +144,7 @@
 
         &:hover,
         &:focus {
-          background-color: $sub-menu-color-hover;
+          background-color: rgba(87, 119, 45, .3)
         }
       }
     }

@@ -5,6 +5,13 @@
     background-image: url('../../images/web/main/bike/bike-breadcrumb-bg.png');
   }
 
+  .page-urban &,
+  .page-rockclimbing &,
+  .page-climbingkit &,
+  .page-play &{
+    @extend %breadcrumb;
+    background-image: url('../../images/urban/urbanbedcrum.jpg');
+  }
 }
 
 .breadcrumb {
@@ -68,7 +75,13 @@
   }
 }
 
-// this is the breadcrumb for about us page
+.breadcrumb > li + li:before { // @TODO This should be done in a better way
+  display: none;
+}
+//** EXTRA  :: END **//
+
+
+// this is the breadcrumb for about us / contsact us  page
 .aboutus-page,
 .contacus-page {
   #g-breadcrumb {

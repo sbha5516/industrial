@@ -79,6 +79,8 @@
         <position>footer-c</position>
         <position>footer-d</position>
         <position>fullwidth</position>
+        <position>fullwidth-left</position>
+        <position>fullwidth-right</position>
         <position>intro-a</position>
         <position>intro-b</position>
         <position>intro-c</position>
