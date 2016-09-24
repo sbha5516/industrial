@@ -165,11 +165,6 @@ body #g-to-top .style1 #g-totop-button:hover, body #g-to-top .style1 #g-totop-bu
 #g-header .g-content {
   margin: 0;
 }
-/* line 15, templates/it_oxygen/custom/scss/components/_header.scss */
-.g-logo {
-  margin: 0;
-  padding: 0;
-}
 @media only screen and (max-width: 770px) {
   /* line 21, templates/it_oxygen/custom/scss/components/_header.scss */
   #g-header .g-logo img {
@@ -323,6 +318,12 @@ body #g-to-top .style1 #g-totop-button:hover, body #g-to-top .style1 #g-totop-bu
 /* line 158, templates/it_oxygen/custom/scss/components/_menu.scss */
 .page-bike #g-header .g-main-nav .g-dropdown .g-sublevel li a:hover, .page-bike #g-header .g-main-nav .g-dropdown .g-sublevel li a:focus {
   background-color: rgba(87, 119, 45, .3);
+}
+/* line 165, templates/it_oxygen/custom/scss/components/_menu.scss */
+/* line 166, templates/it_oxygen/custom/scss/components/_menu.scss */
+#g-mobilemenu-container .g-menu-item-title {
+  fonts-size: 20px;
+  line-height: 30px;
 }
 /* line 2, templates/it_oxygen/custom/scss/components/_breadcrumb.scss */
 /* line 3, templates/it_oxygen/custom/scss/components/_breadcrumb.scss */
