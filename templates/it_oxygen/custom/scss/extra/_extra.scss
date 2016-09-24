@@ -554,10 +554,15 @@
 }
 
 .about_banner {
-  background: $color_gallery_approx url('../images/experiencedwelders.jpg') right center no-repeat;
-  background-size: 49% 100%;
-  overflow: hidden;
-  position: relative;
+
+  .aboutus-page & {
+    background: $color_gallery_approx url('../images/experiencedwelders.jpg') right center no-repeat;
+    background-size: 49% 100%;
+    overflow: hidden;
+    position: relative;
+  }
+
+
 
   .row {
     margin-left: -15px;
@@ -578,6 +583,8 @@
     padding-right: 15px;
   }
 }
+
+
 
 .fab_img {
   position: absolute;
@@ -892,9 +899,9 @@ form.pwebcontact-form button.btn:focus {
   width: 1170px;
 }
 
-#g-subfeature .g-particle-intro .g-main-title {
-  margin-left: 15px;
-}
+//#g-subfeature .g-particle-intro .g-main-title {
+//  margin-left: 15px;
+//}
 
 .pweb-alert.alert-block {
   font-size: 16px !important;

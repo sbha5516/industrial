@@ -34,7 +34,9 @@
 {% endset %}
 
 {% set imagecontent %}
-    {% if particle.image %}<img class="g-main-feature-image{% if particle.imagebottom|default('yes')|e == 'yes' %} image-bottom{% endif %}" alt="{{ particle.alt|e }}" src="{{ url(particle.image) }}" {{ particle.image|imagesize|raw }}>{% endif %}
+    {% if particle.image %}<a data-lightbox-type="image" href="{{ url(particle.image) }}" data-uk-lightbox class="main-feature--image">
+        <img class="g-main-feature-image{% if particle.imagebottom|default('yes')|e == 'yes' %} image-bottom{% endif %}" alt="{{ particle.alt|e }}" src="{{ url(particle.image) }}" {{ particle.image|imagesize|raw }}>{% endif %}
+        </a>
 {% endset %}
 
 {% block particle %}

@@ -123,9 +123,9 @@
       bottom: -86px;
     }
   }
-  footer#g-footer {
-    padding: 94px 0;
-  }
+  //footer#g-footer {
+  //  padding: 94px 0;
+  //}
   #g-feature .g-grid > .standardbollards--left > .g-content {
     padding: 0 .938rem;
   }
@@ -175,9 +175,9 @@
   .detail_txt .mor_btn.red_btn {
     margin-top: 10px;
   }
-  footer#g-footer {
-    padding: 84px 0;
-  }
+  //footer#g-footer {
+  //  padding: 84px 0;
+  //}
   .area_block {
     .move_top {
       img {
@@ -289,8 +289,9 @@
 
 @media only screen and (max-width: 767px) {
   .g-offcanvas-open #g-mobilemenu-container ul.g-toplevel li a {
-    font-size: 16px;
+    font-size: 25px;
     padding-left: 50px;
+    color: #333;
   }
   #g-header {
     > .g-container {
@@ -307,9 +308,7 @@
   #g-mobilemenu-container .g-toplevel > li:first-child {
     display: none;
   }
-  #g-header .g-logo {
-    padding-top: 10px;
-  }
+
   .g-container {
     width: 95% !important;
   }
@@ -529,9 +528,9 @@
       bottom: -34px;
     }
   }
-  footer#g-footer {
-    padding: 10px 0;
-  }
+  //footer#g-footer {
+  //  padding: 10px 0;
+  //}
 }
 
 @media only screen and (max-width: 400px) {
