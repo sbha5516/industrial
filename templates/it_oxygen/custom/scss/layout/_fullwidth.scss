@@ -5,6 +5,10 @@
   font-size: 16px;
   font-weight: 400;
   min-height: 600px;
+
+  .aboutus-page & {
+    min-height: auto;
+  }
   padding: 0;
 
   > .g-container {

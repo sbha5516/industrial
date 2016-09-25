@@ -114,9 +114,6 @@
 
 }
 
-
-
-
 .page-bike,
 .page-urban,
 .page-play {
@@ -500,13 +497,13 @@
 .about_banner {
 
   .aboutus-page & {
-    background: $color_gallery_approx url('../images/experiencedwelders.jpg') right center no-repeat;
-    background-size: 49% 100%;
-    overflow: hidden;
-    position: relative;
+    @media only screen and (min-width: 767px) {
+      background: $color_gallery_approx url('../images/experiencedwelders.jpg') right center no-repeat;
+      background-size: 49% 100%;
+      overflow: hidden;
+      position: relative;
+    }
   }
-
-
 
   .row {
     margin-left: -15px;
@@ -527,8 +524,6 @@
     padding-right: 15px;
   }
 }
-
-
 
 .fab_img {
   position: absolute;
@@ -625,6 +620,9 @@
     color: $color_mine_shaft_approx;
   }
 
+  #g-mainbody {
+    color: $color_mine_shaft_approx;
+  }
 }
 
 body.itemid-101 #g-fullwidth {
