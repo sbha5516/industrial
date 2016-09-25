@@ -1077,7 +1077,6 @@ iframe {
 /* line 99, templates/it_oxygen/scss/oxygen/_menu.scss */
 /* line 100, templates/it_oxygen/scss/oxygen/_menu.scss */
 #g-header .g-main-nav .g-sublevel > li:hover > .g-menu-item-container, #g-header .g-main-nav .g-sublevel > li.active > .g-menu-item-container {
-  background: #f8f9fa;
   color: #5e5f69;
 }
 /* line 103, templates/it_oxygen/scss/oxygen/_menu.scss */

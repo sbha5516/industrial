@@ -98,7 +98,7 @@
 
 				&:hover, &.active {
 					> .g-menu-item-container {
-						background: $base-element-color;
+//						background: $base-element-color;
 						color: darken($header-text-color, 20%);
 						> .g-selected {
 							background: $base-element-color;
