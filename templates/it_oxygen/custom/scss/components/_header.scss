@@ -1,7 +1,8 @@
 #g-header {
   background-color: $white;
-  box-shadow: none;
   border-bottom: $border;
+  box-shadow: none;
+
   >.g-container {
     height: $header-height;
     line-height: $header-height;
@@ -12,19 +13,19 @@
   }
 }
 
-//.g-logo {
-//  margin: 0;
-//  padding: 0;
-//}
+.g-logo {
+  margin: 0;
+  padding: 0;
+}
 
 @media only screen and (max-width: 770px) {
   #g-header .g-logo img {
-    width: 140px !important;
     height: auto;
+    width: 140px !important;
   }
 
   .fa-navicon:before, .fa-reorder:before, .fa-bars:before {
-    font-size: 30px; // making the hamburger clickable size
     color: #7BA93F;
+    font-size: 30px; // making the hamburger clickable size
   }
 }

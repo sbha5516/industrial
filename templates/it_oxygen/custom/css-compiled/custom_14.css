@@ -153,28 +153,33 @@ body #g-to-top .style1 #g-totop-button:hover, body #g-to-top .style1 #g-totop-bu
 /* line 1, templates/it_oxygen/custom/scss/components/_header.scss */
 #g-header {
   background-color: #fff;
-  box-shadow: none;
   border-bottom: 1px solid #c0c0c0;
+  box-shadow: none;
 }
-/* line 5, templates/it_oxygen/custom/scss/components/_header.scss */
+/* line 6, templates/it_oxygen/custom/scss/components/_header.scss */
 #g-header > .g-container {
   height: 86px;
   line-height: 86px;
 }
-/* line 10, templates/it_oxygen/custom/scss/components/_header.scss */
+/* line 11, templates/it_oxygen/custom/scss/components/_header.scss */
 #g-header .g-content {
   margin: 0;
 }
+/* line 16, templates/it_oxygen/custom/scss/components/_header.scss */
+.g-logo {
+  margin: 0;
+  padding: 0;
+}
 @media only screen and (max-width: 770px) {
-  /* line 21, templates/it_oxygen/custom/scss/components/_header.scss */
+  /* line 22, templates/it_oxygen/custom/scss/components/_header.scss */
   #g-header .g-logo img {
-    width: 140px !important;
     height: auto;
+    width: 140px !important;
   }
-  /* line 26, templates/it_oxygen/custom/scss/components/_header.scss */
+  /* line 27, templates/it_oxygen/custom/scss/components/_header.scss */
   .fa-navicon:before, .fa-reorder:before, .fa-bars:before {
-    font-size: 30px;
     color: #7ba93f;
+    font-size: 30px;
   }
 }
 /* line 1, templates/it_oxygen/custom/scss/components/_footer.scss */
@@ -210,7 +215,7 @@ body #g-to-top .style1 #g-totop-button:hover, body #g-to-top .style1 #g-totop-bu
 /* line 36, templates/it_oxygen/custom/scss/components/_menu.scss */
 .g-block.size-40 .g-main-nav .g-toplevel .g-menu-item {
   border-left: 1px solid #c0c0c0;
-  margin: 0 -5px 0 0 !important;
+  margin: 0 -2px 0 0 !important;
 }
 /* line 40, templates/it_oxygen/custom/scss/components/_menu.scss */
 .g-block.size-40 .g-main-nav .g-toplevel .g-menu-item .g-menu-item-container {
@@ -380,15 +385,16 @@ body #g-to-top .style1 #g-totop-button:hover, body #g-to-top .style1 #g-totop-bu
 /* line 86, templates/it_oxygen/custom/scss/components/_breadcrumb.scss */
 .aboutus-page #g-breadcrumb, .contacus-page #g-breadcrumb {
   background-image: none;
+  margin-left: 5px;
   padding: 20px 0 30px;
 }
-/* line 90, templates/it_oxygen/custom/scss/components/_breadcrumb.scss */
+/* line 91, templates/it_oxygen/custom/scss/components/_breadcrumb.scss */
 .aboutus-page #g-breadcrumb .g-content, .contacus-page #g-breadcrumb .g-content {
   margin: 0;
   padding: 0;
 }
-/* line 96, templates/it_oxygen/custom/scss/components/_breadcrumb.scss */
 /* line 97, templates/it_oxygen/custom/scss/components/_breadcrumb.scss */
+/* line 98, templates/it_oxygen/custom/scss/components/_breadcrumb.scss */
 .aboutus-page .industrial-breadcrumb .active, .contacus-page .industrial-breadcrumb .active {
   border-left: 5px solid #8bc53f;
   color: #333;
@@ -510,26 +516,6 @@ body #g-to-top .style1 #g-totop-button:hover, body #g-to-top .style1 #g-totop-bu
 #g-fullwidth .g-block.size-50:last-child .platform-content, #g-fullwidth .g-block.size-50:last-child .bt-cs .bt-row {
   padding: 0;
 }
-/* line 54, templates/it_oxygen/custom/scss/layout/_fullwidth.scss */
-.slide {
-  width: 100% !important;
-}
-/* line 58, templates/it_oxygen/custom/scss/layout/_fullwidth.scss */
-/* line 59, templates/it_oxygen/custom/scss/layout/_fullwidth.scss */
-.slide .bt-row, .slide .bt-image-link, .slide .bt-cs .bt-row .slide .bt_img {
-  height: 100%;
-}
-/* line 68, templates/it_oxygen/custom/scss/layout/_fullwidth.scss */
-#g-fullwidth .g-block.size-50:last-child .slide .bt_img img {
-  height: 600px;
-  margin: 0 !important;
-  object-fit: cover;
-  object-position: 0 0;
-}
-/* line 75, templates/it_oxygen/custom/scss/layout/_fullwidth.scss */
-#g-fullwidth .g-block.size-50:last-child .slides_control, #g-fullwidth .g-block.size-50:last-child .slide {
-  height: 100%;
-}
 /* line 81, templates/it_oxygen/custom/scss/layout/_fullwidth.scss */
 #g-fullwidth .g-title {
   color: #333;
@@ -537,8 +523,9 @@ body #g-to-top .style1 #g-totop-button:hover, body #g-to-top .style1 #g-totop-bu
   font-size: 56px;
   font-weight: 400;
   line-height: 60px;
+  margin-left: -7px;
 }
-/* line 88, templates/it_oxygen/custom/scss/layout/_fullwidth.scss */
+/* line 89, templates/it_oxygen/custom/scss/layout/_fullwidth.scss */
 #g-fullwidth .g-title span:after {
   content: '';
   display: none;
@@ -546,7 +533,7 @@ body #g-to-top .style1 #g-totop-button:hover, body #g-to-top .style1 #g-totop-bu
   width: 0;
 }
 @media only screen and (min-width: 960px) {
-  /* line 98, templates/it_oxygen/custom/scss/layout/_fullwidth.scss */
+  /* line 99, templates/it_oxygen/custom/scss/layout/_fullwidth.scss */
   #g-fullwidth {
     background-color: #eee;
   }
@@ -1003,6 +990,89 @@ body .btn.btn-primary.validate:hover, body .btn.btn-primary.validate:focus {
 #system-message-container #system-message .alert .alert-heading {
   color: #333;
 }
+/* line 2, templates/it_oxygen/custom/scss/layout/_pages.scss */
+#g-header .g-main-nav {
+  margin-left: 10px;
+}
+/* line 6, templates/it_oxygen/custom/scss/layout/_pages.scss */
+/* line 7, templates/it_oxygen/custom/scss/layout/_pages.scss */
+/* line 8, templates/it_oxygen/custom/scss/layout/_pages.scss */
+/* line 9, templates/it_oxygen/custom/scss/layout/_pages.scss */
+.page-bike #g-fullwidth .g-block.size-50:first-child p, .page-bike #g-fullwidth .g-block.size-50:first-child .button {
+  margin-left: -2px;
+}
+/* line 16, templates/it_oxygen/custom/scss/layout/_pages.scss */
+.page-bike #g-feature .g-grid > .standardbollards--left > .g-content {
+  padding-left: 2px;
+}
+/* line 20, templates/it_oxygen/custom/scss/layout/_pages.scss */
+/* line 21, templates/it_oxygen/custom/scss/layout/_pages.scss */
+.page-bike .standardbollards .button {
+  margin-left: 2px;
+}
+/* line 26, templates/it_oxygen/custom/scss/layout/_pages.scss */
+.page-bike .moredetails {
+  padding: 40px 14px;
+}
+/* line 32, templates/it_oxygen/custom/scss/layout/_pages.scss */
+/* line 33, templates/it_oxygen/custom/scss/layout/_pages.scss */
+.page-urban .g-content {
+  padding-left: 0;
+}
+/* line 37, templates/it_oxygen/custom/scss/layout/_pages.scss */
+.page-urban .breadcrumb li:before {
+  margin-left: -5px;
+}
+/* line 41, templates/it_oxygen/custom/scss/layout/_pages.scss */
+.page-urban .varieties, .page-urban .g-title, .page-urban .button {
+  margin-left: -2px;
+}
+/* line 48, templates/it_oxygen/custom/scss/layout/_pages.scss */
+/* line 49, templates/it_oxygen/custom/scss/layout/_pages.scss */
+.aboutus-page .about_banner {
+  margin-left: -12px;
+}
+/* line 53, templates/it_oxygen/custom/scss/layout/_pages.scss */
+.aboutus-page #g-fullwidth {
+  background-color: inherit;
+}
+/* line 60, templates/it_oxygen/custom/scss/layout/_pages.scss */
+/* line 61, templates/it_oxygen/custom/scss/layout/_pages.scss */
+/* line 62, templates/it_oxygen/custom/scss/layout/_pages.scss */
+.contacus-page #g-container-main .g-content {
+  padding-left: 0;
+}
+/* line 70, templates/it_oxygen/custom/scss/layout/_pages.scss */
+.alert.alert-error {
+  display: none;
+}
+/* line 74, templates/it_oxygen/custom/scss/layout/_pages.scss */
+.bt-cs {
+  max-height: 600px;
+}
+@media only screen and (max-width: 959px) {
+  /* line 80, templates/it_oxygen/custom/scss/layout/_pages.scss */
+  .slide img {
+    opacity: 1 !important;
+  }
+  /* line 84, templates/it_oxygen/custom/scss/layout/_pages.scss */
+  /* line 85, templates/it_oxygen/custom/scss/layout/_pages.scss */
+  .slider-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+@media only screen and (min-width: 960px) {
+  /* line 94, templates/it_oxygen/custom/scss/layout/_pages.scss */
+  .slider-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 960px;
+    height: 600px;
+  }
+}
 /* line 1, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .row-eq-height {
   display: flex;
@@ -1112,64 +1182,64 @@ body .btn.btn-primary.validate:hover, body .btn.btn-primary.validate:focus {
   margin: 8px 0 19px;
 }
 /* line 120, templates/it_oxygen/custom/scss/extra/_extra.scss */
-/* line 122, templates/it_oxygen/custom/scss/extra/_extra.scss */
-.page-bike #g-subfeature {
+/* line 124, templates/it_oxygen/custom/scss/extra/_extra.scss */
+.page-bike #g-subfeature, .page-urban #g-subfeature, .page-play #g-subfeature {
   background-color: #333;
 }
-/* line 126, templates/it_oxygen/custom/scss/extra/_extra.scss */
-/* line 127, templates/it_oxygen/custom/scss/extra/_extra.scss */
-.page-bike .g-content-pro .g-content-pro-item {
+/* line 128, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 129, templates/it_oxygen/custom/scss/extra/_extra.scss */
+.page-bike .g-content-pro .g-content-pro-item, .page-urban .g-content-pro .g-content-pro-item, .page-play .g-content-pro .g-content-pro-item {
   border: 0;
 }
-/* line 131, templates/it_oxygen/custom/scss/extra/_extra.scss */
-.page-bike .g-content-pro .g-info-container {
+/* line 133, templates/it_oxygen/custom/scss/extra/_extra.scss */
+.page-bike .g-content-pro .g-info-container, .page-urban .g-content-pro .g-info-container, .page-play .g-content-pro .g-info-container {
   background: none;
   color: #fff;
   font-family: 'roboto';
   font-size: 24px;
   line-height: 32px;
 }
-/* line 145, templates/it_oxygen/custom/scss/extra/_extra.scss */
-/* line 147, templates/it_oxygen/custom/scss/extra/_extra.scss */
-/* line 149, templates/it_oxygen/custom/scss/extra/_extra.scss */
-.page-bike .g-content > .standardbollards:nth-child(2) .standardbollards--left {
+/* line 142, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 144, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 146, templates/it_oxygen/custom/scss/extra/_extra.scss */
+.page-bike .g-content > .standardbollards:nth-child(2) .standardbollards--left, .page-urban .g-content > .standardbollards:nth-child(2) .standardbollards--left, .page-play .g-content > .standardbollards:nth-child(2) .standardbollards--left {
   margin-top: 15px;
   width: 62%;
 }
-/* line 154, templates/it_oxygen/custom/scss/extra/_extra.scss */
-.page-bike .g-content > .standardbollards:nth-child(2) .standardbollards--right {
+/* line 151, templates/it_oxygen/custom/scss/extra/_extra.scss */
+.page-bike .g-content > .standardbollards:nth-child(2) .standardbollards--right, .page-urban .g-content > .standardbollards:nth-child(2) .standardbollards--right, .page-play .g-content > .standardbollards:nth-child(2) .standardbollards--right {
   width: 37%;
 }
-/* line 158, templates/it_oxygen/custom/scss/extra/_extra.scss */
-.page-bike .g-content > .standardbollards:nth-child(2) .g-grid {
+/* line 155, templates/it_oxygen/custom/scss/extra/_extra.scss */
+.page-bike .g-content > .standardbollards:nth-child(2) .g-grid, .page-urban .g-content > .standardbollards:nth-child(2) .g-grid, .page-play .g-content > .standardbollards:nth-child(2) .g-grid {
   border-top: 1px solid #ccc;
   padding-top: 83px;
   position: relative;
 }
-/* line 163, templates/it_oxygen/custom/scss/extra/_extra.scss */
-.page-bike .g-content > .standardbollards:nth-child(2) .g-grid h3.g-main-feature-title {
+/* line 160, templates/it_oxygen/custom/scss/extra/_extra.scss */
+.page-bike .g-content > .standardbollards:nth-child(2) .g-grid h3.g-main-feature-title, .page-urban .g-content > .standardbollards:nth-child(2) .g-grid h3.g-main-feature-title, .page-play .g-content > .standardbollards:nth-child(2) .g-grid h3.g-main-feature-title {
   left: 0;
   position: absolute;
   top: 0;
 }
-/* line 171, templates/it_oxygen/custom/scss/extra/_extra.scss */
-.page-bike .g-content > .standardbollards:nth-child(2) h3.g-main-feature-title {
+/* line 168, templates/it_oxygen/custom/scss/extra/_extra.scss */
+.page-bike .g-content > .standardbollards:nth-child(2) h3.g-main-feature-title, .page-urban .g-content > .standardbollards:nth-child(2) h3.g-main-feature-title, .page-play .g-content > .standardbollards:nth-child(2) h3.g-main-feature-title {
   margin-top: 30px;
 }
-/* line 177, templates/it_oxygen/custom/scss/extra/_extra.scss */
-.page-bike .g-content > .standardbollards:last-child {
+/* line 174, templates/it_oxygen/custom/scss/extra/_extra.scss */
+.page-bike .g-content > .standardbollards:last-child, .page-urban .g-content > .standardbollards:last-child, .page-play .g-content > .standardbollards:last-child {
   margin-bottom: 30px;
 }
-/* line 183, templates/it_oxygen/custom/scss/extra/_extra.scss */
-/* line 195, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 180, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 182, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .page-urban #colorbox {
   border-radius: 0;
 }
-/* line 199, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 186, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .page-urban #cboxLoadedContent {
   padding: 30px;
 }
-/* line 210, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 190, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .page-urban .modelpopup .bfPageIntro p {
   border-bottom: none;
   border-left: 5px solid #8bc53f;
@@ -1181,71 +1251,71 @@ body .btn.btn-primary.validate:hover, body .btn.btn-primary.validate:focus {
   margin-bottom: 30px;
   padding: 5px 10px;
 }
-/* line 259, templates/it_oxygen/custom/scss/extra/_extra.scss */
-/* line 260, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 203, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 204, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .moduletable.right_slide {
   float: right;
 }
-/* line 264, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 208, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .moduletable .top_slider {
   height: 519px;
   padding-bottom: 16px;
   padding-top: 34px;
 }
-/* line 271, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 215, templates/it_oxygen/custom/scss/extra/_extra.scss */
 #g-feature {
   background: none !important;
 }
-/* line 274, templates/it_oxygen/custom/scss/extra/_extra.scss */
-/* line 275, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 218, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 219, templates/it_oxygen/custom/scss/extra/_extra.scss */
 #g-feature .g-grid > .g-content {
   padding: 0;
 }
-/* line 279, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 223, templates/it_oxygen/custom/scss/extra/_extra.scss */
 #g-feature .g-grid > .standardbollards--left {
   margin-left: 0;
 }
-/* line 281, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 225, templates/it_oxygen/custom/scss/extra/_extra.scss */
 #g-feature .g-grid > .standardbollards--left > .g-content {
   padding-left: 0;
 }
-/* line 289, templates/it_oxygen/custom/scss/extra/_extra.scss */
-/* line 291, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 233, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 235, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .standardbollards--right p {
   color: #8bc53f;
   font-size: 18px;
   font-weight: 700;
   line-height: 22px;
 }
-/* line 298, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 242, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .standardbollards--right span {
   color: #333;
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
 }
-/* line 306, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 250, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .moredetails__header {
   margin-bottom: 20px;
   margin-top: 10px;
 }
-/* line 311, templates/it_oxygen/custom/scss/extra/_extra.scss */
-/* line 313, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 255, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 257, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .moredetails .g-content-pro-title {
   margin: 26px auto;
 }
-/* line 317, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 261, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .moredetails .g-content-pro-image {
   max-height: 215px;
   max-width: 382px;
   overflow: hidden;
 }
-/* line 322, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 266, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .moredetails .g-content-pro-image .uk-overlay-fade {
   max-height: 215px;
   max-width: 382px;
 }
-/* line 326, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 270, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .moredetails .g-content-pro-image .uk-overlay-fade.uk-overlay-icon:before {
   background: #8bc53f;
   border-radius: 50%;
@@ -1255,8 +1325,8 @@ body .btn.btn-primary.validate:hover, body .btn.btn-primary.validate:focus {
   padding: 20px;
   top: 41%;
 }
-/* line 342, templates/it_oxygen/custom/scss/extra/_extra.scss */
-/* line 344, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 286, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 288, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .varieties .txtabs-nav {
   bottom: -1px;
   font-family: 'roboto';
@@ -1264,11 +1334,11 @@ body .btn.btn-primary.validate:hover, body .btn.btn-primary.validate:focus {
   margin: 0;
   position: relative;
 }
-/* line 352, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 296, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .varieties .txtabs-nav li {
   display: inline-block;
 }
-/* line 355, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 299, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .varieties .txtabs-nav li a {
   border: 1px solid transparent;
   color: #333;
@@ -1279,45 +1349,45 @@ body .btn.btn-primary.validate:hover, body .btn.btn-primary.validate:focus {
   padding: 9px 37px;
   text-decoration: none;
 }
-/* line 366, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 310, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .varieties .txtabs-nav li.active a {
   border: 1px solid #ccc;
   border-bottom: 1px solid #fff;
 }
-/* line 373, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 317, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .varieties .txtabs-content {
   border: 1px solid #ccc;
 }
-/* line 376, templates/it_oxygen/custom/scss/extra/_extra.scss */
-/* line 378, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 320, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 322, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .varieties .txtabs-content .txtabs-pane.fade {
   display: none;
 }
-/* line 382, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 326, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .varieties .txtabs-content .txtabs-pane.active.fade {
   display: block;
 }
-/* line 390, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 334, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .varieties .slide-desc-text-default {
   display: none;
 }
-/* line 394, templates/it_oxygen/custom/scss/extra/_extra.scss */
-/* line 396, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 338, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 340, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .varieties .djslider-default .navigation-container-custom {
   bottom: -30px;
   left: 0;
   right: auto;
   top: auto;
 }
-/* line 401, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 345, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .varieties .djslider-default .navigation-container-custom:focus {
   outline: none;
 }
-/* line 405, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 349, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .varieties .djslider-default .navigation-container-custom span:focus {
   outline: none;
 }
-/* line 410, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 354, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .varieties .djslider-default .load-button {
   border: 0;
   border-radius: 0;
@@ -1325,39 +1395,39 @@ body .btn.btn-primary.validate:hover, body .btn.btn-primary.validate:focus {
   opacity: 1;
   width: 16px;
 }
-/* line 418, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 362, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .varieties .djslider-default .load-button-active {
   height: 21px;
   margin-bottom: -2px;
   width: 21px;
 }
-/* line 425, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 369, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .varieties .djslider-loader-default {
   overflow: visible;
 }
-/* line 429, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 373, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .varieties h3.g-title {
   color: #8bc53f !important;
   font-family: 'roboto';
   font-size: 18px;
   line-height: 22px;
 }
-/* line 436, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 380, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .varieties .g-title span:after {
   display: none;
 }
-/* line 441, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 385, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .modelpopup {
   color: #333;
   font-family: 'roboto';
   font-size: 18px;
 }
-/* line 446, templates/it_oxygen/custom/scss/extra/_extra.scss */
-/* line 447, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 390, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 391, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .modelpopup .bfClearfix label {
   font-weight: normal;
 }
-/* line 451, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 395, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .modelpopup .bfClearfix input[type="text"] {
   border: 1px solid #888;
   border-radius: 5px;
@@ -1367,117 +1437,117 @@ body .btn.btn-primary.validate:hover, body .btn.btn-primary.validate:focus {
   padding: 0 8px 5px;
   width: 100%;
 }
-/* line 460, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 404, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .modelpopup .bfClearfix input[type="text"]:focus {
   border: 1px solid #8bc53f;
 }
-/* line 465, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 409, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .modelpopup .bfClearfix textarea {
   border: 1px solid #888;
   border-radius: 5px;
   font-size: 24px;
   width: 100%;
 }
-/* line 472, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 416, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .modelpopup .bfClearfix .bfSubmitButton {
   display: block;
   margin: 40px auto;
   width: 120px;
 }
-/* line 479, templates/it_oxygen/custom/scss/extra/_extra.scss */
-/* line 481, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 423, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 425, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .modelpopup .bfSectionDescription h2 {
   border: 5px solid #000;
   padding: 16px 10px;
   text-align: center;
 }
-/* line 486, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 430, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .modelpopup .bfSectionDescription h2 strong {
   color: #000;
   font-family: 'roboto';
   font-size: 26px;
 }
-/* line 494, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 438, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .modelpopup .bfSectionDescription > p {
   margin: 27px 0;
 }
-/* line 501, templates/it_oxygen/custom/scss/extra/_extra.scss */
-/* line 503, templates/it_oxygen/custom/scss/extra/_extra.scss */
-/* line 505, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 445, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 447, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 449, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .pweb-form-blue .modal-dialog form.pwebcontact-form input.pweb-input:focus {
   border: 1px solid #8bc53f !important;
   box-shadow: none !important;
 }
-/* line 510, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 454, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .pweb-form-blue .modal-dialog form.pwebcontact-form select:focus {
   border: 1px solid #8bc53f !important;
   box-shadow: none !important;
 }
-/* line 516, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 460, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .pweb-form-blue form.pwebcontact-form textarea:focus {
   border: 1px solid #8bc53f !important;
   box-shadow: none !important;
 }
-/* line 522, templates/it_oxygen/custom/scss/extra/_extra.scss */
-/* line 526, templates/it_oxygen/custom/scss/extra/_extra.scss */
-/* line 530, templates/it_oxygen/custom/scss/extra/_extra.scss */
-/* line 534, templates/it_oxygen/custom/scss/extra/_extra.scss */
-/* line 538, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 466, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 470, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 474, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 478, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 482, templates/it_oxygen/custom/scss/extra/_extra.scss */
 #pwebcontact205_text-2 {
   margin: 30px 0 40px;
 }
-/* line 542, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 486, templates/it_oxygen/custom/scss/extra/_extra.scss */
 #pwebcontact206_text-2 {
   margin: 30px 0 40px;
 }
-/* line 546, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 490, templates/it_oxygen/custom/scss/extra/_extra.scss */
 :focus {
   outline-style: auto;
   outline-width: 0;
 }
-/* line 551, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 495, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .uk-sticky-placeholder {
   height: 87px;
   margin: 0;
 }
-/* line 556, templates/it_oxygen/custom/scss/extra/_extra.scss */
-/* line 558, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 500, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 502, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .aboutus-page .about_banner {
   background: #eee url('../images/experiencedwelders.jpg?57e4ff96') right center no-repeat;
   background-size: 49% 100%;
   overflow: hidden;
   position: relative;
 }
-/* line 567, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 511, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .about_banner .row {
   margin-left: -15px;
   margin-right: -15px;
 }
-/* line 572, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 516, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .about_banner p {
   color: #333;
   font-size: 18px;
   line-height: 30px;
 }
-/* line 578, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 522, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .about_banner .g-container > div:first-child {
   margin-bottom: 20px;
 }
-/* line 582, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 526, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .about_banner .container > .row > div:first-child .row {
   padding-right: 15px;
 }
-/* line 589, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 533, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .fab_img {
   position: absolute;
   right: 0;
 }
-/* line 593, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 537, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .fab_img img {
   display: none;
 }
-/* line 598, templates/it_oxygen/custom/scss/extra/_extra.scss */
-/* line 600, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 542, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 544, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .g-our-team-social a {
   background: #8bc53f;
   border-radius: 50px;
@@ -1487,17 +1557,17 @@ body .btn.btn-primary.validate:hover, body .btn.btn-primary.validate:focus {
   text-align: center;
   width: 36px !important;
 }
-/* line 609, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 553, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .g-our-team-social a:hover {
   background-color: #618532;
 }
-/* line 614, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 558, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .g-our-team-social .fa-envelope:before {
   color: #fff;
   content: "\f003";
   font-size: 21px;
 }
-/* line 621, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 565, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .top_slider {
   background: #eee;
   color: #333;
@@ -1506,7 +1576,7 @@ body .btn.btn-primary.validate:hover, body .btn.btn-primary.validate:focus {
   line-height: 25px;
   margin-bottom: 15px;
 }
-/* line 629, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 573, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .top_slider h2 {
   color: #333 !important;
   font-family: 'roboto';
@@ -1516,7 +1586,7 @@ body .btn.btn-primary.validate:hover, body .btn.btn-primary.validate:focus {
   margin-bottom: 17px;
   text-transform: capitalize;
 }
-/* line 639, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 583, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .top_slider .readmore {
   background: #8bc53f;
   border-radius: 45px;
@@ -1524,57 +1594,53 @@ body .btn.btn-primary.validate:hover, body .btn.btn-primary.validate:focus {
   margin-right: 11px;
   padding: 9px 30px;
 }
-/* line 646, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 590, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .top_slider .readmore a {
   color: #fff;
   font-family: 'Patua One';
   font-size: 16px;
 }
-/* line 651, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 595, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .top_slider .readmore a:hover, .top_slider .readmore a:focus {
   text-decoration: none;
 }
-/* line 658, templates/it_oxygen/custom/scss/extra/_extra.scss */
-/* line 659, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 602, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 603, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .top_slider .slides_container .bt-inner .readmore:hover, .top_slider .slides_container .bt-inner .readmore:focus {
   background-color: #618532;
 }
-/* line 666, templates/it_oxygen/custom/scss/extra/_extra.scss */
-/* line 667, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 610, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 611, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .right_slide .slides_control .slide {
   height: 100% !important;
 }
-/* line 671, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 615, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .right_slide .bt-cs .bt-inner img {
   height: 519px;
   width: 831px !important;
 }
-/* line 677, templates/it_oxygen/custom/scss/extra/_extra.scss */
-/* line 679, templates/it_oxygen/custom/scss/extra/_extra.scss */
-.contacus-page .g-particle {
+/* line 621, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 623, templates/it_oxygen/custom/scss/extra/_extra.scss */
+.contacus-page .g-particle, .contacus-page #g-mainbody {
   color: #333;
 }
-/* line 683, templates/it_oxygen/custom/scss/extra/_extra.scss */
-.contacus-page #g-mainbody {
-  color: #333;
-}
-/* line 690, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 630, templates/it_oxygen/custom/scss/extra/_extra.scss */
 body.itemid-101 #g-fullwidth {
   padding-top: 87px;
 }
-/* line 694, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 634, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .slide .bt-row .row {
   margin-left: -15px;
 }
-/* line 698, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 638, templates/it_oxygen/custom/scss/extra/_extra.scss */
 p.blank {
   height: 5px;
 }
-/* line 702, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 642, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .bt-inner img {
   opacity: 1 !important;
 }
-/* line 706, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 646, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .g-particle .g-main-feature-title {
   border-left: 5px solid #8bc53f;
   color: #333 !important;
@@ -1585,24 +1651,24 @@ p.blank {
   margin-top: 40px;
   padding: 5px 10px;
 }
-/* line 717, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 657, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .g-content .standardbollards--right img {
   margin-top: 15px;
   max-height: 510px;
 }
-/* line 722, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 662, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .bike__moredetails .g-content-pro-title {
   font-family: 'roboto';
 }
-/* line 730, templates/it_oxygen/custom/scss/extra/_extra.scss */
-/* line 731, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 666, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 667, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .platform-content .custom p.order_btn {
   border-bottom: 1px solid #ccc;
   margin-top: 50px;
   padding-bottom: 10px;
   text-align: center;
 }
-/* line 738, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 674, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .platform-content .custom .order_btn a {
   background: #8bc53f;
   border-radius: 50px;
@@ -1614,12 +1680,12 @@ p.blank {
   padding: 15px 22px;
   text-decoration: none;
 }
-/* line 749, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 685, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .platform-content .custom .order_btn a:focus, .platform-content .custom .order_btn a:hover {
   background: #618532;
   outline: none;
 }
-/* line 757, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 693, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .titlename h3.g-title {
   border-left: 5px solid #8bc53f;
   color: #333 !important;
@@ -1631,12 +1697,12 @@ p.blank {
   margin-top: 0;
   padding: 5px 10px;
 }
-/* line 768, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 704, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .titlename h3.g-title span:after {
   display: none;
 }
-/* line 773, templates/it_oxygen/custom/scss/extra/_extra.scss */
-/* line 774, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 709, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 710, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .djslider-default .slider-container > ul > li:hover a:after {
   background: #000;
   content: '';
@@ -1648,7 +1714,7 @@ p.blank {
   transition: 0.5s;
   width: 100%;
 }
-/* line 786, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 722, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .djslider-default .slider-container > ul > li:hover a:before {
   background: url('../images/search_icon.png?57e4ff96') no-repeat center;
   content: '';
@@ -1658,51 +1724,51 @@ p.blank {
   width: 100%;
   z-index: 1;
 }
-/* line 797, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 733, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .modal-dialog .pwebcontact-form {
   color: #333;
   font-family: 'roboto';
   font-size: 18px;
 }
-/* line 802, templates/it_oxygen/custom/scss/extra/_extra.scss */
-/* line 804, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 738, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 740, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .modal-dialog .pwebcontact-form .pweb-field-container .pweb-label {
   width: 100%;
 }
-/* line 807, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 743, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .modal-dialog .pwebcontact-form .pweb-field-container .pweb-label label {
   font-weight: normal;
   text-transform: capitalize;
 }
-/* line 810, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 746, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .modal-dialog .pwebcontact-form .pweb-field-container .pweb-label label .pweb-asterisk {
   color: #333;
 }
-/* line 816, templates/it_oxygen/custom/scss/extra/_extra.scss */
-/* line 817, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 752, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 753, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .modal-dialog .pwebcontact-form .pweb-field-container .pweb-field textarea {
   height: 103px !important;
 }
-/* line 822, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 758, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .modal-dialog .pwebcontact-form .pweb-field-container .pweb-field select {
   height: 43px;
 }
-/* line 826, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 762, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .modal-dialog .pwebcontact-form .pweb-field-container .pweb-field input.pweb-input {
   height: 43px;
 }
-/* line 834, templates/it_oxygen/custom/scss/extra/_extra.scss */
-/* line 835, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 770, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 771, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .pweb-labels-inline .modal-dialog form.pwebcontact-form .pweb-field {
   width: 100%;
 }
-/* line 839, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 775, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .pweb-labels-inline .modal-dialog form.pwebcontact-form .pweb-field-buttons .pweb-field {
   display: block;
   margin: 28px 0 0;
   text-align: center;
 }
-/* line 844, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 780, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .pweb-labels-inline .modal-dialog form.pwebcontact-form .pweb-field-buttons .pweb-field button.btn {
   background: #8bc53f;
   border: none;
@@ -1713,56 +1779,56 @@ p.blank {
   padding: 10px 0;
   width: 125px;
 }
-/* line 853, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 789, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .pweb-labels-inline .modal-dialog form.pwebcontact-form .pweb-field-buttons .pweb-field button.btn:hover {
   background: #618532;
 }
-/* line 860, templates/it_oxygen/custom/scss/extra/_extra.scss */
-/* line 861, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 796, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 797, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .pwebcontact-box.pweb-modal.pweb-radius div.pwebcontact-container {
   border-radius: 0;
 }
-/* line 865, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 801, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .pwebcontact-box.pweb-modal div.pwebcontact-container {
   padding: 30px;
 }
-/* line 870, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 806, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .ui-effects-transfer.pweb-genie.pweb-radius {
   border-radius: 0;
 }
-/* line 874, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 810, templates/it_oxygen/custom/scss/extra/_extra.scss */
 div.pweb-modal .pweb-button-close {
   background: url('../images/close.png?57e4ff96') no-repeat !important;
   padding: 36px 0 0 36px !important;
 }
-/* line 879, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 815, templates/it_oxygen/custom/scss/extra/_extra.scss */
 header#g-header {
   position: fixed;
   top: 0;
   width: 100%;
 }
-/* line 885, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 821, templates/it_oxygen/custom/scss/extra/_extra.scss */
 form.pwebcontact-form button.btn:focus {
   outline-style: auto;
   outline-width: 0;
 }
-/* line 890, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 826, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .no-article #g-container-main {
   display: none;
 }
-/* line 894, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 830, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .g-block .about_banner .g-container {
   width: 1170px;
 }
-/* line 898, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 834, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .cstm_cont .g-container {
   width: 1170px;
 }
-/* line 906, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 842, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .pweb-alert.alert-block {
   font-size: 16px !important;
 }
-/* line 910, templates/it_oxygen/custom/scss/extra/_extra.scss */
+/* line 846, templates/it_oxygen/custom/scss/extra/_extra.scss */
 .contact-form form > fieldset > legend {
   color: #333;
   font-size: 16px;
